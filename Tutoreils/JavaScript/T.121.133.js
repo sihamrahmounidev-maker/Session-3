@@ -2,26 +2,47 @@
 let jours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"];
 
 for (let i = 0; i < jours.length; i++) {
-    console.log("Jour de la semaine :"+ jours[i]);
+  console.log("Jour de la semaine :" + jours[i]);
 }
 
 //Exercice 2
 let couleurs = ["Rouge", "Vert", "Bleu", "Jaune", "Orange", "Violet"];
 
-for (let i = couleurs.length-1; i >= 0;i--){
-    console.log("la couleur est :" + couleurs[i]);
+for (let i = couleurs.length - 1; i >= 0; i--) {
+  console.log("la couleur est :" + couleurs[i]);
 }
 
-for (let j = 0; j < couleurs.length; j=j+2){
-    console.log("la couleur est :" + couleurs[j]);
+for (let j = 0; j < couleurs.length; j = j + 2) {
+  console.log("la couleur est :" + couleurs[j]);
 }
 
 //Exercice 3
 let sequence = ["Ignition", 1, 2, 3, 4, 5, "Préparation"];
 
-  // On utilise sequence.length - 1 car l'index commence à 0
+// On utilise sequence.length - 1 car l'index commence à 0
 
-for (let index = sequence.length-1; index >= 0; index--) {
-    console.log(sequence[index]);
+for (let index = sequence.length - 1; index >= 0; index--) {
+  console.log(sequence[index]);
 }
-console.log("Décollage !")
+console.log("Décollage !");
+
+//Exercice D'application
+let prompt = require("prompt-sync")();
+
+let notes = [];
+let taille = 5;
+
+
+for (let i = 0; i < taille; i++) {
+    let note = Number(prompt("Donner une note : "));
+    notes[i] = note;
+}
+let somme = 0;
+
+for (let i = 0; i < notes.length; i++) {
+  somme = somme + notes[i];
+}
+
+let moyenne = somme / taille;
+
+console.log("La moyenne est : " + moyenne);
