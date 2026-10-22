@@ -1,5 +1,5 @@
 //Exercice 1
-let mots = ["chat", "ordinateur", "table", "programmation", "js"];
+let mots = ["chat", "ordinateur", "table", "programmation", "js" , "tv"];
 
 let motsLongs = 0;
 
@@ -7,6 +7,9 @@ for (let i = 0; i < mots.length; i++) {
   if (mots[i].length > 5) {
     motsLongs++;
   }
+
+  if(mots[i][0]==="t")
+    console.log(mots[i]);
 }
 console.log(motsLongs);
 
