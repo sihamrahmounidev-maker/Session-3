@@ -3,8 +3,16 @@
     width: 300px;
     background: #f9fafb;
     border: 2px solid #e5e7eb;
+    margin-bottom: 24px;
 }
 
 .carte-contenu {
-    padding: 30px;
+    padding: 20px;
+}
+.carte-contenu h3 {
+    margin: 0;
+}
+
+.carte-contenu p {
+    margin: 12px 0;
 }
