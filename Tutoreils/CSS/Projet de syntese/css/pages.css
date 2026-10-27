@@ -1,4 +1,21 @@
-.page-cartes {
-    max-width: 1200px;
+
+.banniere-accueil {
+    padding: 96px 24px;
+    text-align: center;
+    background: #ffffff;
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+.banniere-accueil h1 {
+    max-width: 850px;
     margin: 0 auto;
+    font-size: 56px;
+    color: #0a2042;
+}
+
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 24px auto 0;
+    font-size: 17px;
+    color: #6b7280;
 }
