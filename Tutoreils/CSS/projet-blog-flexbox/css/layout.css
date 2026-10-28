@@ -22,6 +22,7 @@
 
 .barre-navigation {
   display: flex;
+  justify-content: space-between;
 }
 .pied-de-page {
   margin-top: 80px;
@@ -58,4 +59,5 @@
 .conteneur-pied-de-page{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
