@@ -23,6 +23,7 @@
 .barre-navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .pied-de-page {
   margin-top: 80px;
