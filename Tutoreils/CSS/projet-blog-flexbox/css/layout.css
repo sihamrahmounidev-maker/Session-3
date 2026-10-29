@@ -57,8 +57,13 @@
   color: #9ca3af;
   font-size: 12px;
 }
-.conteneur-pied-de-page{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.conteneur-pied-de-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 48px;
+}
+.liens-navigation {
+  display: flex;
+  gap: 24px;
 }
