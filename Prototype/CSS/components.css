@@ -1,0 +1,82 @@
+
+/* Logo */
+
+.Soli {
+  font-size: 22px;
+  font-weight: 700;
+  color: #102858;
+  font-family: "Montserrat";
+}
+
+.logo {
+  color: #ffd04a;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #435a7e;
+  padding: 8px;
+  margin: 8px;
+  font-weight: 400;
+  font-family: "Lato";
+}
+
+/* Buttons */
+
+button {
+  font-weight: 700;
+  border-radius: 8px;
+  font-family: "Lato";
+  border: none;
+}
+
+.second {
+  background-color: #edf5ff;
+  border: 1px solid #1769e8;
+  color: #1769e8;
+  padding: 8px 35px 12px 35px;
+  margin-left: 9px;
+}
+
+.seconds {
+  color: #1769e8;
+  font-weight: 900;
+  font-family: "Lato";
+}
+
+/* Icons */
+
+.lucide {
+  vertical-align: middle;
+  width: 20px;
+}
+
+.preview-icon {
+  padding: 8px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-top: 20px;
+}
+
+.lucide-graduation-cap,
+.lucide-briefcase-business,
+.lucide-code-xml,
+.lucide-palette {
+  color: #1769e8;
+  background-color: #edf5ff;
+}
+
+.lucide-user-round-group,
+.lucide-chart-no-axes-column-increasing,
+.lucide-smartphone {
+  color: #ffd04a;
+  background-color: #fff6a3;
+}
