@@ -1,0 +1,282 @@
+/* =========================================
+   HOME PAGE
+========================================= */
+
+/* HOME PAGE BODY */
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* =========================================
+   1. GENERAL HOME PAGE SECTIONS
+========================================= */
+
+section {
+    padding: 50px 7%;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* =========================================
+   2. HERO SECTION
+========================================= */
+
+#hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 25px;
+}
+
+.hero-content a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: var(--gold);
+    color: var(--text);
+    border: 1px solid var(--teal);
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.hero-visual {
+    width: 50%;
+}
+
+.hero-visual img {
+    width: 100%;
+}
+
+/* =========================================
+   3. PROBLEM SECTION
+========================================= */
+
+#problem {
+    background-color: var(--white);
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-heading p {
+    color: var(--muted-text);
+}
+
+.problem-container {
+    display: flex;
+    gap: 20px;
+}
+
+.problem-card {
+    width: 33.33%;
+    padding: 25px;
+     background-color: var(--light-blue);
+    border: 1px solid var(--teal);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.problem-card img {
+    width: 100%;
+    height: 110px;
+    max-width: 180px;
+    margin: 0 auto 20px;
+    object-fit: contain;
+}
+
+.problem-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.problem-card p {
+    color: var(--muted-text);
+    font-size: 15px;
+}
+
+/* =========================================
+   4. ABOUT SECTION
+========================================= */
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.about-content,
+.about-points {
+    width: 50%;
+}
+
+.about-content h2 {
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    line-height: 1.7;
+}
+
+.about-points {
+    margin-top: 0;
+}
+
+.about-points p {
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: var(--white);
+    border: 2px solid var(--teal);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* =========================================
+   5. CONCEPT SECTION
+========================================= */
+
+#concept {
+    background-color: var(--white);
+    text-align: center;
+}
+
+.concept-container {
+    display: flex;
+    gap: 20px;
+}
+
+.concept-card {
+    width: 33.33%;
+    padding: 25px;
+    background-color: var(--light-blue);
+    border: 1px solid var(--teal);
+    border-radius: 8px;
+}
+
+.concept-card img {
+    width: 100%;
+    height: 110px;
+    max-width: 110px;
+    margin: 0 auto 15px;
+    object-fit: contain;
+}
+
+.concept-card h3 {
+    margin-bottom: 15px;
+    color: var(--teal);
+}
+
+.concept-card h4 {
+    margin-bottom: 10px;
+}
+
+.concept-card p {
+    color: var(--muted-text);
+    font-size: 15px;
+}
+
+/* =========================================
+   6. FLOW SECTION
+========================================= */
+
+#flow {
+    text-align: center;
+}
+
+#flow > p {
+    margin-bottom: 35px;
+    color: var(--muted-text);
+}
+
+.flow-container {
+    display: flex;
+    gap: 12px;
+}
+
+.flow-item {
+    width: 16.66%;
+    padding: 18px 10px;
+    background-color: var(--white);
+    border: 1px solid #0f4c5c ;
+    border-radius: 8px;
+}
+
+.flow-item h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.flow-item p {
+    font-size: 16px;
+}
+
+.flow-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+/* =========================================
+   7. HOME PAGE RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-content,
+    .hero-visual {
+        width: 100%;
+    }
+
+    .problem-container,
+    .concept-container,
+    .flow-container {
+        flex-direction: column;
+    }
+
+    .problem-card,
+    .concept-card,
+    .flow-item {
+        width: 100%;
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .about-content,
+    .about-points {
+        width: 100%;
+    }
+
+    section {
+        padding: 35px 5%;
+    }
+}
